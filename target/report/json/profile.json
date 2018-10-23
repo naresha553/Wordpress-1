@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13853840236,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Update the profile feature with valid data",
+        "description": "",
+        "id": "test-profile-feature;update-the-profile-feature-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 142021001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2170776,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open the browser and load the URL",
+            "match": {
+              "location": "LoginStepDefinition.user_open_the_browser_and_load_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24244085332,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to application \"sudheerkumar.gv@gmail.com\" \"kumar@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sudheerkumar.gv@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"kumar@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ProfileStepDefinition.login_to_application(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72923523,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dashboard page should be appear",
+            "match": {
+              "location": "ProfileStepDefinition.dashboard_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5333658474,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on profile icon",
+            "match": {
+              "location": "ProfileStepDefinition.click_on_profile_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704651603,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "profile page should be appear",
+            "match": {
+              "location": "ProfileStepDefinition.profile_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 192307471,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "set first name \"sudheer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sudheer\"",
+                  "offset": 15
+                }
+              ],
+              "location": "ProfileStepDefinition.set_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220764140,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "set last name \"kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kumar\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ProfileStepDefinition.set_last_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301375137,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "set display name \"sudheer kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sudheer kumar\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ProfileStepDefinition.set_display_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 719158032,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "set about me \"Selenium Trainer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium Trainer\"",
+                  "offset": 13
+                }
+              ],
+              "location": "ProfileStepDefinition.set_about_me(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5271639906,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on save profile details button",
+            "match": {
+              "location": "ProfileStepDefinition.click_on_save_profile_details_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.wordpress.stepdefinitions.ProfileStepDefinition.profile_details_should_be_saved(ProfileStepDefinition.java:120)\n\tat ✽.profile details should be saved(src/test/resources/features/UpdateProfile.feature:16)\n",
+              "duration": 1469850793,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "profile details should be saved",
+            "match": {
+              "location": "ProfileStepDefinition.profile_details_should_be_saved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@positive"
+          },
+          {
+            "name": "@important"
+          }
+        ]
+      }
+    ],
+    "name": "Test profile feature",
+    "description": "",
+    "id": "test-profile-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/UpdateProfile.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

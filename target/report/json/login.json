@@ -1,0 +1,507 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2524993,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the browser and load the URL",
+            "match": {
+              "location": "LoginStepDefinition.user_open_the_browser_and_load_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191429938,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "home page should be appear",
+            "match": {
+              "location": "LoginStepDefinition.home_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9588323748,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login link",
+            "match": {
+              "location": "LoginStepDefinition.click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202968520,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login page should be appear",
+            "match": {
+              "location": "LoginStepDefinition.login_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18443914305,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "test login functionality with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;test-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 171703769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1319195330,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter user name \"sudheerkumar.gv@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sudheerkumar.gv@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.set_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693755568,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on continue button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1163431586,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter password \"kumar@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kumar@123\"",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginStepDefinition.set_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470224250,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12983033476,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "login should be successfull",
+            "match": {
+              "location": "LoginStepDefinition.login_should_be_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@positive"
+          },
+          {
+            "name": "@important"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1500972,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the browser and load the URL",
+            "match": {
+              "location": "LoginStepDefinition.user_open_the_browser_and_load_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5723674775,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "home page should be appear",
+            "match": {
+              "location": "LoginStepDefinition.home_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5794852600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login link",
+            "match": {
+              "location": "LoginStepDefinition.click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49633297,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login page should be appear",
+            "match": {
+              "location": "LoginStepDefinition.login_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6396359105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "test login functionality with invalid user name as Numbers",
+        "description": "",
+        "id": "test-login-functionality;test-login-functionality-with-invalid-user-name-as-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 138772006,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 341840633,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enter user name \"567890986546\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"567890986546\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.set_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326136238,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on continue button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465708,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "system to display error message \"User does not exist.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User does not exist.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefinition.system_to_display_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@non-important"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 732324,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the browser and load the URL",
+            "match": {
+              "location": "LoginStepDefinition.user_open_the_browser_and_load_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280854150,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "home page should be appear",
+            "match": {
+              "location": "LoginStepDefinition.home_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10195955585,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login link",
+            "match": {
+              "location": "LoginStepDefinition.click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49859234,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login page should be appear",
+            "match": {
+              "location": "LoginStepDefinition.login_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7783453069,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "test login functionality with invalid user name as Numbers",
+        "description": "",
+        "id": "test-login-functionality;test-login-functionality-with-invalid-user-name-as-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 144737143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 338644547,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enter user name \"$%*£*@(*%\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$%*£*@(*%\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.set_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164991785,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on continue button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 766630,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "system to display error message \"400 status code for \\\"GET /users/$%*£*@(*%/auth-options\\\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400 status code for \\\"GET /users/$%*£*@(*%/auth-options\\\"\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefinition.system_to_display_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@non-important"
+          }
+        ]
+      }
+    ],
+    "name": "test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    ]
+  }
+]

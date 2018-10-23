@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wordpress.runners.ProfileTestRunner" time="52.601" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/dnreddy/eclipse-workspace/WordpressAutomationWithCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/dnreddy/eclipse-workspace/WordpressAutomationWithCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9j/z070kn312lq4fn5xpwz9gbkc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/dnreddy/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf9051483615034657792.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dnreddy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|http://scrumblr.ca|*.http://scrumblr.ca|http://beust.com/eclipse/context.xml|*.http://beust.com/eclipse/context.xml|https://rubygems.org/specs.4.8.gz|*.https://rubygems.org/specs.4.8.gz|https://github.com/SVProgressHUD/SVProgressHUD.git|*.https://github.com/SVProgressHUD/SVProgressHUD.git"/>
+    <property name="user.home" value="/Users/dnreddy"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="dnreddy"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/dnreddy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/dnreddy/eclipse-workspace/WordpressAutomationWithCucumber/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|http://scrumblr.ca|*.http://scrumblr.ca|http://beust.com/eclipse/context.xml|*.http://beust.com/eclipse/context.xml|https://rubygems.org/specs.4.8.gz|*.https://rubygems.org/specs.4.8.gz|https://github.com/SVProgressHUD/SVProgressHUD.git|*.https://github.com/SVProgressHUD/SVProgressHUD.git"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|http://scrumblr.ca|*.http://scrumblr.ca|http://beust.com/eclipse/context.xml|*.http://beust.com/eclipse/context.xml|https://rubygems.org/specs.4.8.gz|*.https://rubygems.org/specs.4.8.gz|https://github.com/SVProgressHUD/SVProgressHUD.git|*.https://github.com/SVProgressHUD/SVProgressHUD.git"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Update the profile feature with valid data" classname="Test profile feature" time="52.601">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.wordpress.stepdefinitions.ProfileStepDefinition.profile_details_should_be_saved(ProfileStepDefinition.java:120)
+	at ✽.profile details should be saved(src/test/resources/features/UpdateProfile.feature:16)
+</failure>
+    <system-out><![CDATA[@all
+Feature: Test profile feature
+
+  @all @positive @important
+  Scenario: Update the profile feature with valid data                 &amp#27;[90m# src/test/resources/features/UpdateProfile.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser open the browser and load the URL&amp#27;[0m                       &amp#27;[90m# LoginStepDefinition.user_open_the_browser_and_load_the_URL()&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mlogin to application &amp#27;[0m&amp#27;[32m&amp#27;[1m"sudheerkumar.gv@gmail.com"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"kumar@123"&amp#27;[0m &amp#27;[90m# ProfileStepDefinition.login_to_application(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdashboard page should be appear&amp#27;[0m                               &amp#27;[90m# ProfileStepDefinition.dashboard_page_should_be_appear()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on profile icon&amp#27;[0m                                         &amp#27;[90m# ProfileStepDefinition.click_on_profile_icon()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprofile page should be appear&amp#27;[0m                                 &amp#27;[90m# ProfileStepDefinition.profile_page_should_be_appear()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset first name &amp#27;[0m&amp#27;[32m&amp#27;[1m"sudheer"&amp#27;[0m                                      &amp#27;[90m# ProfileStepDefinition.set_first_name(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset last name &amp#27;[0m&amp#27;[32m&amp#27;[1m"kumar"&amp#27;[0m                                         &amp#27;[90m# ProfileStepDefinition.set_last_name(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset display name &amp#27;[0m&amp#27;[32m&amp#27;[1m"sudheer kumar"&amp#27;[0m                              &amp#27;[90m# ProfileStepDefinition.set_display_name(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset about me &amp#27;[0m&amp#27;[32m&amp#27;[1m"Selenium Trainer"&amp#27;[0m                               &amp#27;[90m# ProfileStepDefinition.set_about_me(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on save profile details button&amp#27;[0m                          &amp#27;[90m# ProfileStepDefinition.click_on_save_profile_details_button()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mprofile details should be saved&amp#27;[0m                               &amp#27;[90m# ProfileStepDefinition.profile_details_should_be_saved()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.wordpress.stepdefinitions.ProfileStepDefinition.profile_details_should_be_saved(ProfileStepDefinition.java:120)
+	at ✽.profile details should be saved(src/test/resources/features/UpdateProfile.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err>Starting ChromeDriver 2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db) on port 25308
+Only local connections are allowed.
+Sep 18, 2018 12:20:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>

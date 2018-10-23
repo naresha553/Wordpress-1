@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Wordpress-Consolidate-Report</td>
+              <td>1</td>
+            <td>18 Sep 2018, 00:21</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">Hooks.setUp()</td>
+              <td>4</td>
+              <td class="duration" data-value="46477566715">46s 477ms</td>
+              <td class="duration" data-value="11619391678">11s 619ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.tearDown()</td>
+              <td>4</td>
+              <td class="duration" data-value="597233919">597ms</td>
+              <td class="duration" data-value="149308479">149ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.click_on_continue_button()</td>
+              <td>3</td>
+              <td class="duration" data-value="1184883591">1s 184ms</td>
+              <td class="duration" data-value="394961197">394ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.click_on_login_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="470224250">470ms</td>
+              <td class="duration" data-value="470224250">470ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.click_on_login_link()</td>
+              <td>3</td>
+              <td class="duration" data-value="25579131933">25s 579ms</td>
+              <td class="duration" data-value="8526377311">8s 526ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.home_page_should_be_appear()</td>
+              <td>3</td>
+              <td class="duration" data-value="6195958863">6s 195ms</td>
+              <td class="duration" data-value="2065319621">2s 065ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.login_page_should_be_appear()</td>
+              <td>3</td>
+              <td class="duration" data-value="302461051">302ms</td>
+              <td class="duration" data-value="100820350">100ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.login_should_be_successfull()</td>
+              <td>1</td>
+              <td class="duration" data-value="12983033476">12s 983ms</td>
+              <td class="duration" data-value="12983033476">12s 983ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.set_password(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1163431586">1s 163ms</td>
+              <td class="duration" data-value="1163431586">1s 163ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.set_user_name(String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1999680510">1s 999ms</td>
+              <td class="duration" data-value="666560170">666ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.system_to_display_error_message(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1232338">001ms</td>
+              <td class="duration" data-value="616169">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginStepDefinition.user_open_the_browser_and_load_the_URL()</td>
+              <td>4</td>
+              <td class="duration" data-value="6929065">006ms</td>
+              <td class="duration" data-value="1732266">001ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.click_on_profile_icon()</td>
+              <td>1</td>
+              <td class="duration" data-value="5333658474">5s 333ms</td>
+              <td class="duration" data-value="5333658474">5s 333ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.click_on_save_profile_details_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="5271639906">5s 271ms</td>
+              <td class="duration" data-value="5271639906">5s 271ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.dashboard_page_should_be_appear()</td>
+              <td>1</td>
+              <td class="duration" data-value="72923523">072ms</td>
+              <td class="duration" data-value="72923523">072ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.login_to_application(String,String)</td>
+              <td>1</td>
+              <td class="duration" data-value="24244085332">24s 244ms</td>
+              <td class="duration" data-value="24244085332">24s 244ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.profile_details_should_be_saved()</td>
+              <td>1</td>
+              <td class="duration" data-value="1469850793">1s 469ms</td>
+              <td class="duration" data-value="1469850793">1s 469ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.profile_page_should_be_appear()</td>
+              <td>1</td>
+              <td class="duration" data-value="704651603">704ms</td>
+              <td class="duration" data-value="704651603">704ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.set_about_me(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="719158032">719ms</td>
+              <td class="duration" data-value="719158032">719ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.set_display_name(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="301375137">301ms</td>
+              <td class="duration" data-value="301375137">301ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.set_first_name(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="192307471">192ms</td>
+              <td class="duration" data-value="192307471">192ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProfileStepDefinition.set_last_name(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="220764140">220ms</td>
+              <td class="duration" data-value="220764140">220ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>22</td>
+            <td>42</td>
+            <td class="duration">2m 15s 492ms</td>
+            <td class="duration">3s 226ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
