@@ -1,0 +1,23 @@
+interview
+Unix/Shell script
+
+
+
+Ansible
+What is the structure of an Ansible playbook, and what are its key components?
+How do you use roles in Ansible, and what are the benefits of using them?
+What are handlers in Ansible, and when are they triggered?
+How do you handle errors in Ansible using ignore_errors?
+How do you securely store credentials in Ansible?
+How do you handle dependencies between tasks in Ansible?
+
+
+Terraform
+Explain the Terraform workflow. How does Terraform handle the state file, and what happens if it gets deleted
+What happens when multiple users run terraform apply at the same time? How do you avoid race conditions?
+How do you recover from a corrupted Terraform state file?
+How do you handle module dependencies across different environments in Terraform?
+Why are Terraform provisioners considered a last resort? When would you use them?
+What is the difference between local-exec and remote-exec provisioners?
+Explain terraform workspace. How does it differ from using separate state files?
+
